@@ -1,0 +1,197 @@
+.formArea{
+    width: 490px;
+    border: 1px solid;
+}
+.mainBlock{
+	width: 450px;
+	padding: 15px 20px 35px 20px;
+}
+
+.imgBlock{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	z-index: 3;
+	float: left;
+	background-image: url("../Test Doroshin i/images/face.png");
+    background-size: cover;
+}
+
+.nameBlock{
+	z-index: 1;
+}
+.nameInfo, .positionInfo{
+    margin-left: 30px;
+}
+.nameInfo{
+	font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #333333;
+}
+.positionInfo{
+    color: #808080;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+.statusInfo{
+	border: 1px solid #cecabf;
+	border-radius: 5px;
+	font-size: 12px;
+    font-family: Arial;
+    margin-left: 105px;	
+    background-color: #fffbc8;
+    padding: 10px 17px 10px 45px;
+}
+.mainCharts{
+	width: 75%;
+	float: right;
+}
+.countNumTitle{
+    width: 100%;
+    float: right;
+    font-family: Arial;
+    font-size: 13px;
+    text-align: right;
+    padding-right: 20px;
+    margin: 7px 5px
+}
+
+.chartsBlock{
+	height: 77px;
+	border-left: 1px solid #cecabf;
+}
+.overlayCharts{
+	width: 100%;
+	height: 25px;
+}
+.handReserve{
+	height: 24px;
+	width: 220px;
+	background-color: #b1e19b;
+	z-index: 1;
+    border-radius: 0 4px 4px 0;
+}
+.stackTours{
+	height: 24px;
+	width: 55px;
+	background-color: #ace2f8;
+	z-index: 1;
+    border-radius: 0 4px 4px 0;
+}
+.hotelsBl{
+	height: 24px;
+	width: 35px;
+	background-color: #ace2f8;
+	z-index: 1;
+    border-radius: 0 4px 4px 0;
+}
+
+.totalCount{
+	width: 100%;
+	height: 25px;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.totCountLab{
+	float: left;
+}
+.totCountNum{
+	float: right;
+    margin-right: 25px;
+}
+.latestNewsMain{
+	width: 100%;
+	margin-top: 175px;
+	padding-top: 30px;
+}
+.latestNewsMain a{
+	margin-left: 5px;
+}
+.latestNewsMain span{
+	font-weight: bold;
+	font-size: 19px;
+}
+.heartMainBl, .thingMain{
+    width: 60px;
+    height: 100%;
+    float: right;
+    font-size: 12px;
+    display: -webkit-inline-box;
+    padding-top: 2px;
+}
+.heartPhoto{
+	width: 24px;
+	background-image: url("../Test Doroshin i/images/Heart.png");
+    background-repeat: no-repeat;
+}
+.thingPhoto{
+	width: 24px;
+	background-image: url("../Test Doroshin i/images/Thing.png");
+    background-repeat: no-repeat;
+}
+.heartNum, .thingNum{
+	padding-top: 3px;
+}
+.commentsMainBl{
+	width: 100%;
+	margin-top: 10px;
+}
+.nameOfUser, .dateOfComm{
+	height: 25px;
+	text-align: left;
+}
+.commentOfUser{
+    margin: 20px 0 20px 0;
+}
+.nameOfUser{
+	float: left;
+	font-weight: bold;
+	margin-right: 5px;
+}
+.dateOfComm{
+	font-size: 13px;
+	padding-top: 2px;
+	color:#808080;
+}
+.commentBl{
+	background-color: #f2fbff;
+	border: 1px solid #cfcfcf;
+	padding: 10px;
+}
+.bottomArea{
+	width: 490px;
+}
+.addButBl{
+	text-align: center;
+}
+.buttAdmSnd{
+	color: #333333;
+	background-color: #fdd639;
+	width: 280px;
+	height: 42px;
+	border-radius: 21px;
+	border: none;
+	font-weight: bold;
+    font-size: 14px;
+    outline: none;
+}
+.buttAdmSnd:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+.sendMsgArea{
+	background-color: #f2f2f2;
+	padding: 30px;
+}
+#msgFrUser{
+    width: 420px;
+    height: 70px;
+    margin-bottom: 30px;
+    resize: none;
+}	
+.error{
+    color: red;
+}
